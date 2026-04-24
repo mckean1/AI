@@ -16,6 +16,7 @@
 - One enum per file. File name must match the enum name.
 - Constants should be logically grouped in separate Constants files. e.g., `DatabaseConstants.cs`.
 - Place `using` directives at the top of the file, outside the namespace.
+- Remove unused `using` directives.
 - Sort `using` directives alphabetically.
 - Use braces `{}` for all control flow statements, even single-line bodies.
 - Keep lines under **120 characters** where practical.
