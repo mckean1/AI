@@ -21,6 +21,7 @@
 - Keep lines under **120 characters** where practical.
 - Don't add fluff comments. Code should be self-explanatory.
 - Use XML documentation comments for public members and types.
+- Properties should be at the top of the class, followed by constructors, then methods.
 
 ## Type & Member Design
 - Always specify access modifiers explicitly (e.g., `public`, `private`, `internal`).
