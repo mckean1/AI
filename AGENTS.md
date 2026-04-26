@@ -23,6 +23,7 @@
 - Don't add fluff comments. Code should be self-explanatory.
 - Use XML documentation comments for public members and types.
 - Properties should be at the top of the class, followed by constructors, then methods.
+- Avoid using conditional blocks in switch statements; If needed place them in a separate method.
 
 ## Type & Member Design
 - Always specify access modifiers explicitly (e.g., `public`, `private`, `internal`).
