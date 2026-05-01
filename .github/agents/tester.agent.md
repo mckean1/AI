@@ -4,12 +4,12 @@ description: Builds, tests, and validates .NET changes
 tools: ['execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'read/terminalLastCommand', 'search/codebase', 'edit']
 handoffs:
   - label: Review Changes
-    agent: Reviewer
+    agent: Reviewer Agent
     prompt: Review the validated changes.
     send: false
 ---
 
-# Test Engineer Agent
+# Tester Agent
 
 You validate .NET changes.
 

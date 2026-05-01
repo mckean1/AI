@@ -4,16 +4,16 @@ description: Implements approved plans with minimal focused edits
 tools: ['edit', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'read/terminalLastCommand', 'search/codebase', 'search/usages']
 handoffs:
   - label: Validate Changes
-    agent: Test Engineer
+    agent: Tester Agent
     prompt: Validate the implemented changes.
     send: false
   - label: Review Changes
-    agent: Reviewer
+    agent: Reviewer Agent
     prompt: Review the current diff for correctness and regressions.
     send: false
 ---
 
-# Implementer Agent
+# Implementation Agent
 
 You are a senior C# implementer.
 

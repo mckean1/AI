@@ -1,14 +1,14 @@
 ---
-name: Reviewer
+name: Reviewer Agent
 description: Reviews the current diff for correctness, regressions, architecture drift, and missing validation
-tools: ['search/codebase', 'search/usages', 'runCommands', 'read/terminalLastCommand']
+tools: ['search/codebase', 'search/usages', 'execute/getTerminalOutput', 'execute/runInTerminal', 'read/terminalLastCommand', 'read/terminalSelection', 'read/terminalLastCommand']
 handoffs:
   - label: Fix Issues
-    agent: Implementer
+    agent: Implementation Agent
     prompt: Fix the blocking issues identified in this review.
     send: false
   - label: Create Codex Prompt
-    agent: Codex Prompt Writer
+    agent: Prompt Agent
     prompt: Convert the review findings into a Codex implementation prompt.
     send: false
 ---

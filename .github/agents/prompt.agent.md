@@ -4,7 +4,7 @@ description: Converts plans into clean Codex implementation prompts
 tools: []
 ---
 
-# Codex Prompt Writer Agent
+# Prompt Agent
 
 You write implementation prompts.
 
